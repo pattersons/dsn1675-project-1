@@ -35,6 +35,8 @@ header {
   padding: 1.5em 0;
   text-align: center;
   color: white;
+  display: block;
+
 }
 
 p {
@@ -47,12 +49,57 @@ main {
   text-align: center;
 }
 
-h1, h2 {
+h1 {
   font-family: "Pacifico",cursive;
   colour:
   text-align: center;
+  font-size: 2.2em;
+}
+
+h2 {
+  font-family: "Pacifico",cursive;
+  colour:
+  text-align: center;
+  font-size: 1.8em;
+}
+
+div {
+  font-family:"Montserrat" sans-serif;
+}
+
+nav {
 }
 
 footer{
   text-align: center;
+}
+
+@media only screen and (min-width: 26em) {
+
+
+  .nav {
+    text-align: center;
+    }
+
+
+  .nav li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 30em) {
+
+  .logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 1em;
+  }
+
+  .title{
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
 }
