@@ -40,9 +40,9 @@ header {
 }
 
 p {
-  padding: 0 2em;
+  padding: 10px 2em;
   font-family: "Montserrat",sans-serif;
-  text-align: left;
+  text-align: center;
 }
 
 main {
@@ -66,40 +66,12 @@ h2 {
 div {
   font-family:"Montserrat" sans-serif;
 }
+article {
+  text-align: left;
+  padding: 10px 2em;
 
-nav {
 }
 
 footer{
   text-align: center;
-}
-
-@media only screen and (min-width: 26em) {
-
-
-  .nav {
-    text-align: center;
-    }
-
-
-  .nav li {
-    display: inline-block;
-  }
-
-}
-
-@media only screen and (min-width: 30em) {
-
-  .logo {
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 1em;
-  }
-
-  .title{
-    margin: 0;
-    display: inline-block;
-    vertical-align: middle;
-  }
-
 }
