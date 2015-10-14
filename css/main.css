@@ -11,7 +11,7 @@ html{
     -ms-text-size-adjust: 100%
     -webkit-text-size-adjust: 100%
     text-size-adjust: 100%
-    font: normal 100%/1.3 montserrat,sans-serif;
+    font: normal 100%/1.5 "Montserrat",sans-serif;
   }
 
 *, *::before, *::after {
@@ -32,15 +32,28 @@ header {
   background-image: url(images/...jpg);
   background-size: 100%;
   background-repeat: no-repeat;
+  background-color: black;
   padding: 1.5em 0;
   text-align: center;
+  color: white;
 }
 
 p {
   padding: 0 2em;
+  font-family: "Montserrat",sans-serif;
+  text-align: left;
 }
+
+main {
+  text-align: center;
+}
+
 h1, h2 {
   font-family: "Pacifico",cursive;
   colour:
-  text-align:center;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
 }
