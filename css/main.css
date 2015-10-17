@@ -72,3 +72,64 @@ article {
 footer{
   text-align: center;
 }
+
+@media only screen and (min-width: 26em) {
+
+
+  .nav {
+    text-align: center;
+    }
+
+
+  .nav li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 30em) {
+
+  .logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 1em;
+  }
+
+  .title{
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+}
+
+@media only screen and (min-width: 55em) {
+
+  .masthead {
+    float: left;
+    width: 30%;
+  }
+
+  main {
+    float: right;
+    width: 70%;
+  }
+
+  .title {
+    display: block;
+    margin: 1em 0;
+  }
+
+  .logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .nav {
+    text-align: left;
+  }
+
+  .nav li {
+    display: block;
+  }
+}
